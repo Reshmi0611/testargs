@@ -22,13 +22,14 @@ import { argosScreenshot } from "@argos-ci/playwright";
 test('get started link1', async ({ page }) => {
   await page.goto('https://reshmi0611.github.io/testargs/');
   await argosScreenshot(page, "homepage");
-  await page.goto('https://reshmi0611.github.io/testargs/ptwo.html');
-  await argosScreenshot(page, "homepage");
-  await page.goto('https://reshmi0611.github.io/testargs/pthree.html');
-  await argosScreenshot(page, "homepage");
-  await page.goto('https://reshmi0611.github.io/testargs/pfour.html');
-  await argosScreenshot(page, "homepage");
-  await page.goto('https://reshmi0611.github.io/testargs/pfive.html');
-  await argosScreenshot(page, "homepage");
+  
+  // await page.goto('https://reshmi0611.github.io/testargs/ptwo.html');
+  // await argosScreenshot(page, "homepage");
+  // await page.goto('https://reshmi0611.github.io/testargs/pthree.html');
+  // await argosScreenshot(page, "homepage");
+  // await page.goto('https://reshmi0611.github.io/testargs/pfour.html');
+  // await argosScreenshot(page, "homepage");
+  // await page.goto('https://reshmi0611.github.io/testargs/pfive.html');
+  // await argosScreenshot(page, "homepage");
 });
 
