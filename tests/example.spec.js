@@ -20,7 +20,7 @@ import { argosScreenshot } from "@argos-ci/playwright";
 // });
 
 test('get started link1', async ({ page }) => {
-  await page.goto('https://reshmi0611.github.io/testargs/');
+  await page.goto('https://reshmi0611.github.io/testargs/index.html');
   await argosScreenshot(page, "homepage");
   
   // await page.goto('https://reshmi0611.github.io/testargs/ptwo.html');
@@ -33,3 +33,7 @@ test('get started link1', async ({ page }) => {
   // await argosScreenshot(page, "homepage");
 });
 
+test('get started link2', async ({ page }) => {
+  await page.goto('https://reshmi0611.github.io/testargs/ptwo.html');
+  await argosScreenshot(page, "homepage");
+});
