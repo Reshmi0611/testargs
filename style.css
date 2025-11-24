@@ -90,7 +90,7 @@ p.just {
 /* right column paragraphs */
 p.rc {
   font-family: Arial, Verdana, Times, sans-serif;
-  color: #442200;
+  color: #170044;
   font-size: 11pt;
   text-align: left;
   border-radius: 3px;
@@ -100,7 +100,7 @@ p.rc {
 /* headers */
 h1 {
   font-family: "Dejavu Sans", Arial, Verdana, sans-serif;
-  color: #440000;
+  color: #074400;
 }
 
 h2 {
