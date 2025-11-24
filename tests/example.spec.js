@@ -37,3 +37,16 @@ test('get started link2', async ({ page }) => {
   await page.goto('https://reshmi0611.github.io/testargs/ptwo.html');
   await argosScreenshot(page, "homepage2");
 });
+
+test('get started link3', async ({ page }) => {
+  await page.goto('https://reshmi0611.github.io/testargs/pthree.html');
+  await argosScreenshot(page, "homepage3");
+});
+test('get started link4', async ({ page }) => {
+  await page.goto('https://reshmi0611.github.io/testargs/pfour.html');
+  await argosScreenshot(page, "homepage4");
+});
+test('get started link5', async ({ page }) => {
+  await page.goto('https://reshmi0611.github.io/testargs/pfive.html');
+  await argosScreenshot(page, "homepage5");
+});
